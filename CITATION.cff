@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: "DISCO: A Deep Learning Algorithm for Digital Cell Segmentation and Counting with Immunofluorescence Images"
+message: "If you use this software, please cite the accompanying manuscript."
+type: software
+authors:
+  - given-names: Guanqun
+    family-names: Meng
+    affiliation: "Department of Population and Quantitative Health Sciences, Case Western Reserve University"
+  - given-names: Gang
+    family-names: Qu
+    orcid: "https://orcid.org/0000-0003-2681-0880"
+    affiliation: "McWilliams School of Biomedical Informatics and School of Public Health, The University of Texas Health Science Center at Houston"
+  - given-names: Wenjing
+    family-names: Ma
+    affiliation: "Department of Biostatistics, University of Michigan"
+  - given-names: Wen
+    family-names: Tang
+    affiliation: "Department of Population and Quantitative Health Sciences, Case Western Reserve University"
+  - given-names: Jiebiao
+    family-names: Wang
+    affiliation: "Department of Biostatistics, University of Pittsburgh"
+  - given-names: Zhongming
+    family-names: Zhao
+    orcid: "https://orcid.org/0000-0002-3477-0914"
+    affiliation: "McWilliams School of Biomedical Informatics and School of Public Health, The University of Texas Health Science Center at Houston"
+  - given-names: Hao
+    family-names: Feng
+    affiliation: "Department of Population and Quantitative Health Sciences, Case Western Reserve University"
+repository-code: "https://github.com/GQ93/disco"
+url: "https://huggingface.co/gxm324/disco"
+license: MIT
+keywords:
+  - immunohistochemistry
+  - cell-type deconvolution
+  - weakly supervised segmentation
+  - deep learning
+  - Alzheimer's disease
+preferred-citation:
+  type: article
+  title: "DISCO: A Deep Learning Algorithm for Digital Cell Segmentation and Counting with Immunofluorescence Images"
+  authors:
+    - given-names: Guanqun
+      family-names: Meng
+    - given-names: Gang
+      family-names: Qu
+    - given-names: Wenjing
+      family-names: Ma
+    - given-names: Wen
+      family-names: Tang
+    - given-names: Jiebiao
+      family-names: Wang
+    - given-names: Zhongming
+      family-names: Zhao
+    - given-names: Hao
+      family-names: Feng
+  year: 2026
+  notes: "Manuscript in preparation"

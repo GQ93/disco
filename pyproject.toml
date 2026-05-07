@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disco-ihc"
+version = "0.0.1"
+description = "Deep learning for digital cell segmentation, counting, and deconvolution from immunohistochemistry images"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Guanqun Meng" },
+    { name = "Gang Qu" },
+    { name = "Wenjing Ma" },
+    { name = "Wen Tang" },
+    { name = "Jiebiao Wang" },
+    { name = "Zhongming Zhao" },
+    { name = "Hao Feng" },
+]
+maintainers = [
+    { name = "Hao Feng" },
+]
+keywords = [
+    "immunohistochemistry",
+    "cell-type deconvolution",
+    "weakly supervised segmentation",
+    "deep learning",
+    "U-Net",
+    "Alzheimer's disease",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+# Pinned runtime dependencies will be added once the implementation is uploaded.
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+    "pytest-cov",
+    "ruff",
+    "black",
+]
+
+[project.urls]
+Homepage = "https://github.com/GQ93/disco"
+Repository = "https://github.com/GQ93/disco"
+Issues = "https://github.com/GQ93/disco/issues"
+Models = "https://huggingface.co/gxm324/disco"
+
+[project.scripts]
+disco = "disco.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["disco*"]
+exclude = ["tests*", "notebooks*", "scripts*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
