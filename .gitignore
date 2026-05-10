@@ -97,19 +97,29 @@ cython_debug/
 Thumbs.db
 
 # DISCO-specific: large artifacts not tracked in git
-# (mirror these on Hugging Face / Zenodo instead)
-checkpoints/*.pth
-checkpoints/*.pt
-checkpoints/*.ckpt
-checkpoints/*.safetensors
-data/raw/
-data/processed/
-data/*.tif
-data/*.tiff
-data/*.h5
-data/*.npy
-data/*.npz
+# (model weights are attached to GitHub Releases and archived on Zenodo;
+#  raw image data is not redistributed)
+
+# Model weights / checkpoint ensembles (any directory)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Pickled prediction dumps (e.g. output_list.pkl from training)
+*.pkl
+
+# Raw / intermediate image data (any directory)
+*.tif
+*.tiff
+*.h5
+*.npy
+*.npz
 *.zarr/
+
+# Repo-internal scratch
+_scratch/
+release/
 
 # R artifacts
 .Rhistory

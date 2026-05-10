@@ -57,7 +57,7 @@ dev = [
 Homepage = "https://github.com/GQ93/disco"
 Repository = "https://github.com/GQ93/disco"
 Issues = "https://github.com/GQ93/disco/issues"
-Models = "https://huggingface.co/gxm324/disco"
+Releases = "https://github.com/GQ93/disco/releases"
 
 [project.scripts]
 disco = "disco.cli:main"

@@ -27,7 +27,7 @@ authors:
     family-names: Feng
     affiliation: "Department of Population and Quantitative Health Sciences, Case Western Reserve University"
 repository-code: "https://github.com/GQ93/disco"
-url: "https://huggingface.co/gxm324/disco"
+url: "https://github.com/GQ93/disco"
 license: MIT
 keywords:
   - immunohistochemistry
