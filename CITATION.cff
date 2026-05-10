@@ -29,6 +29,16 @@ authors:
 repository-code: "https://github.com/GQ93/disco"
 url: "https://github.com/GQ93/disco"
 license: MIT
+version: "v0.1.0"
+date-released: "2026-05-10"
+doi: "10.5281/zenodo.20113828"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20113828"
+    description: "Concept DOI (always resolves to the latest release)"
+  - type: doi
+    value: "10.5281/zenodo.20113829"
+    description: "Version DOI for v0.1.0"
 keywords:
   - immunohistochemistry
   - cell-type deconvolution

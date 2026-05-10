@@ -3,7 +3,8 @@
 Trained DISCO checkpoints (`.pth`) are **not** committed to git. They are attached to the project's GitHub Release and archived on Zenodo with a citable DOI:
 
 ➡ **GitHub Release:** https://github.com/GQ93/disco/releases/tag/v0.1.0
-➡ **Zenodo DOI:** *added once v0.1.0 publishes*
+➡ **Zenodo (concept DOI, always latest):** https://doi.org/10.5281/zenodo.20113828
+➡ **Zenodo (v0.1.0 version DOI):** https://doi.org/10.5281/zenodo.20113829
 
 ## Bundle contents
 

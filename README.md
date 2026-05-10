@@ -4,7 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](#installation)
-[![Status: v0.1.0](https://img.shields.io/badge/release-v0.1.0-blue.svg)](#release-history)
+[![Status: v0.1.0](https://img.shields.io/badge/release-v0.1.0-blue.svg)](https://github.com/GQ93/disco/releases/tag/v0.1.0)
+[![DOI](https://zenodo.org/badge/1231522876.svg)](https://doi.org/10.5281/zenodo.20113828)
 
 > 📌 **v0.1.0 — research-code release.** This repository hosts the official implementation used in the DISCO manuscript. Code is shared *as-is* in `scripts/` (the development workflow); a clean library API is on the roadmap. Pretrained weights are attached to the GitHub Release and archived on Zenodo. **Raw images and intermediate prediction dumps are not redistributed.**
 
@@ -145,7 +146,9 @@ Per-cell-type ImPartial checkpoints (`weights_best.pth`, `model_val_best_save0.p
 | Oligodendrocytes | OLIG2 | ↑ |
 | Endothelial | PECAM | ↑ |
 
-> **Zenodo DOI:** *to be filled in once the v0.1.0 release is published.* The persistent "concept DOI" at Zenodo always resolves to the latest release.
+**Zenodo DOIs**
+- **Concept DOI** (always resolves to the latest release): [`10.5281/zenodo.20113828`](https://doi.org/10.5281/zenodo.20113828)
+- **v0.1.0 version DOI** (pinned to this release): [`10.5281/zenodo.20113829`](https://doi.org/10.5281/zenodo.20113829)
 
 After download, untar into the local `checkpoints/` folder; each `<cellType>_test/` subdirectory matches what `02_Testing.py` writes during training.
 
@@ -188,7 +191,21 @@ If you use DISCO, please cite:
 }
 ```
 
-If you use the pretrained weights specifically, please *also* cite the Zenodo archive (DOI added in v0.1.0).
+If you use the pretrained weights specifically, please *also* cite the Zenodo archive:
+
+```bibtex
+@software{meng2026disco_weights,
+  title     = {DISCO: A Deep Learning Algorithm for Digital Cell Segmentation
+               and Counting with Immunofluorescence Images (v0.1.0)},
+  author    = {Meng, Guanqun and Qu, Gang and Ma, Wenjing and Tang, Wen and
+               Wang, Jiebiao and Zhao, Zhongming and Feng, Hao},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v0.1.0},
+  doi       = {10.5281/zenodo.20113829},
+  url       = {https://doi.org/10.5281/zenodo.20113829}
+}
+```
 
 ## License
 
